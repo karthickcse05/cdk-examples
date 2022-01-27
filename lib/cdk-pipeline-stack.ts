@@ -3,8 +3,6 @@ import * as codebuild from '@aws-cdk/aws-codebuild';
 import * as codepipeline from '@aws-cdk/aws-codepipeline';
 import * as codepipeline_actions from '@aws-cdk/aws-codepipeline-actions';
 import * as iam from '@aws-cdk/aws-iam';
-import {  Topic } from '@aws-cdk/aws-sns';
-import * as subscription from '@aws-cdk/aws-sns-subscriptions';
 
 export class CdkPipelineStack extends cdk.Stack {
   constructor(scope: cdk.Construct, id: string, props?: cdk.StackProps) {

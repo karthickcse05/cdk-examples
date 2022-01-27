@@ -15,5 +15,5 @@ phases:
       - echo Build CDK project...
       - npm install
       - npm run build
-      - npm run test cdk-example.test
+      - npm run test
       - echo test completed...
