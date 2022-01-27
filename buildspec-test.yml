@@ -1,0 +1,19 @@
+version: 0.2
+phases:
+  install:
+    commands:
+      - npm install -g aws-cdk
+      - npm install -g typescript
+      - cdk --version
+  pre_build:
+    commands:
+      - echo aws version...
+      - aws --version
+  build:
+    commands:
+      - echo test started...
+      - echo Build CDK project...
+      - npm install
+      - npm run build
+      - npm run test cdk-example.test
+      - echo test completed...
