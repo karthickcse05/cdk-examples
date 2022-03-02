@@ -23,6 +23,19 @@
     "repoToken":"githubtoken",
     "owner":"karthickcse05",
     "repo":"cdk-examples",
-    "branch":"master"
+    "branch":"master",
+    "config": {
+      "clustername": "ecs-cluster",
+      "servicename": "ecs-service",
+      "NotificationEmailsources": "ecs-cluster",
+      "AccountID": "ecs-service",
+      "ProjectName": "ecs-cluster",
+      "ProjectEnvironment": "ecs-service",
+      "ReleaseGroup": "ecs-service",
+      "administrationPrincipals":"test",
+      "conditions":"test",
+      "CallerAccount":"test",
+      "Principals":"test"
+    }
   }
 }
